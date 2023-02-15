@@ -1,0 +1,19 @@
+.itemContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+.itemContainer + .itemContainer {
+	margin-top: 15px;
+}
+
+.details {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2px;
+}
+
+.label {
+	font-size: 14px;
+	font-weight: bold;
+}
