@@ -47,17 +47,11 @@ npm run storybook
 
 ### Building & publishing
 
-Build the project to generate the output in `/dist`:
-
-```shell
-npm run build
-```
-
-Bump the version in `package.json`, re-install via `npm install` and then publish to npm (you might need to log in first):
-
-```shell
-npm publish
-```
+1. Build the project to generate the output in `/dist` via `npm run build`
+2. Bump the version in `package.json`
+3. Re-run `npm install` to update the version in `package-lock.json`
+4. Update the `CHANGELOG.md`
+5. Publish to npm via `npm publish` (you might need to log in first)
 
 ### Other commands
 
