@@ -1,2 +1,4 @@
+/.storybook
 /dist
-package.json
+package*.json
+*.md
