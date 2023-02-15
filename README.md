@@ -2,6 +2,39 @@
 
 A collection of tiny chart components for React projects. Written with TypeScript and CSS modules.
 
+## Usage
+
+### BarChart
+
+![A bar chart with three items](./screenshots/BarChart.jpg)
+
+```tsx
+import BarChart from 'react-mini-charts'
+
+<BarChart
+	chartItems={[
+		{
+			barWidth: '10%',
+			barColor: '#adfc92',
+			labelLeft: 'Something good',
+			labelRight: '10%',
+		},
+		{
+			barWidth: '50%',
+			barColor: '#4a0d67',
+			labelLeft: 'Something mediocre',
+			labelRight: '50%',
+		},
+		{
+			barWidth: '40%',
+			barColor: '#db3069',
+			labelLeft: 'Something bad',
+			labelRight: '40%',
+		},
+	]}
+/>
+```
+
 ## Development
 
 Install dependencies with `npm install`.
