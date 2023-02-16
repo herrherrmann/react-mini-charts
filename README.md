@@ -12,7 +12,7 @@ A collection of tiny chart components for React projects. Written with TypeScrip
 import BarChart from 'react-mini-charts'
 
 <BarChart
-	chartItems={[
+	items={[
 		{
 			barWidth: '10%',
 			barColor: '#adfc92',

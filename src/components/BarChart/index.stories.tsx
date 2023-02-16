@@ -34,11 +34,11 @@ const exampleChartItems = [
 
 export const Default = Template.bind({})
 Default.args = {
-	chartItems: exampleChartItems,
+	items: exampleChartItems,
 }
 
 export const CustomGap = Template.bind({})
 CustomGap.args = {
-	chartItems: exampleChartItems,
+	items: exampleChartItems,
 	gap: 30,
 }
