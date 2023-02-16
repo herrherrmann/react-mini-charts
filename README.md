@@ -86,3 +86,8 @@ npm test
 ## Contributions & feedback
 
 This is a spare-time project by one person, but feel free to leave comments and suggestions in the issues tab!
+
+## Improvement ideas
+
+- [ ] Document requirements (e.g. minimum React version)
+- [ ] Calculate the percentages based on absolute values (instead of percentages to be pre-calculated on the outside)
