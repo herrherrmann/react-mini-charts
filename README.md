@@ -37,7 +37,8 @@ import BarChart from 'react-mini-charts'
 
 ### Customization
 
-Chart styles can be overridden with `className` props.
+- General styles like font-family are inherited from the surrounding CSS context.
+- Specific chart styles can be overridden with `className` props.
 
 
 ## Development
