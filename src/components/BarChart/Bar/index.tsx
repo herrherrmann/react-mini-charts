@@ -1,10 +1,5 @@
 import { chartBarBorderRadius, chartBarSize } from '../../../common/constants'
-import { Color } from '../../../common/types'
-
-export type BarProps = {
-	barColor: Color
-	barWidth: string | number
-}
+import { BarProps } from '../types'
 
 export default function Bar(props: BarProps) {
 	return (

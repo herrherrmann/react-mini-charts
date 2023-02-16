@@ -1,36 +1,19 @@
 import { ReactNode } from 'react'
 import { Color } from '../../../common/types'
-import Bar, { BarProps } from '../Bar'
+import Bar from '../Bar'
+import { BarProps } from '../types'
+import Label from './Label'
 import styles from './styles.module.css'
 
-type LabelProps = {
-	children: ReactNode
-	color?: Color
-}
-
-function Label({ children, color }: LabelProps) {
-	return (
-		<strong className={styles.label} style={{ color }}>
-			{children}
-		</strong>
-	)
-}
-
-type ItemProps = BarProps & {
+type Props = BarProps & {
 	labelLeft?: ReactNode
 	labelRight?: ReactNode
 	labelLeftColor?: Color
 	labelRightColor?: Color
 }
 
-export default function Item({
-	barColor,
-	barWidth,
-	labelLeft,
-	labelRight,
-	labelLeftColor,
-	labelRightColor,
-}: ItemProps) {
+export default function Item(props: Props) {
+	const { barColor, barWidth, labelLeft, labelRight, labelLeftColor, labelRightColor } = props
 	return (
 		<div className={styles.itemContainer}>
 			<Bar barColor={barColor} barWidth={barWidth} />

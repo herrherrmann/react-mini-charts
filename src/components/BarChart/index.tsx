@@ -1,17 +1,7 @@
-import { ReactNode } from 'react'
-import { Color } from '../../common/types'
 import { getClassNames } from '../../services/classNames'
 import Item from './Item'
 import styles from './styles.module.css'
-
-export type ChartItem = {
-	barWidth: string | number
-	barColor: Color
-	labelLeft?: ReactNode
-	labelRight?: ReactNode
-	labelLeftColor?: Color
-	labelRightColor?: Color
-}
+import { ChartItem } from './types'
 
 type Props = {
 	items: ChartItem[]
