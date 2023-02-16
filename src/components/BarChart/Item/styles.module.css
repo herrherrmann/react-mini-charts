@@ -3,7 +3,7 @@
 	flex-direction: column;
 }
 
-.details {
+.labels {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 2px;
