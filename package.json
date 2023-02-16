@@ -8,9 +8,10 @@
     "dist"
   ],
   "homepage": "https://github.com/herrherrmann/react-mini-charts#readme",
+  "bugs": "https://github.com/herrherrmann/react-mini-charts/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/herrherrmann/react-mini-charts.git"
+    "url": "https://github.com/herrherrmann/react-mini-charts.git"
   },
   "keywords": [
     "react",
