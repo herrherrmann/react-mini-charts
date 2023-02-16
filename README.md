@@ -35,6 +35,24 @@ import BarChart from 'react-mini-charts'
 />
 ```
 
+### PieChart
+
+![A pie chart with three items](./screenshots/PieChart.jpg)
+
+```tsx
+import PieChart from 'react-mini-charts'
+
+<PieChart
+	size={240}
+	items={[
+		{ percentage: 0.37, color: '#4a0d67' },
+		{ percentage: 0.21, color: '#db3069' },
+		{ percentage: 0.13, color: '#adfc92' },
+	]}
+/>
+```
+
+
 ### Customization
 
 - General styles like font-family are inherited from the surrounding CSS context.

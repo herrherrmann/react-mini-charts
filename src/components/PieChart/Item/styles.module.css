@@ -1,0 +1,3 @@
+.item {
+	transition: stroke-dasharray 500ms ease-in-out, stroke-dashoffset 500ms ease-in-out;
+}
