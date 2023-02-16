@@ -1,10 +1,10 @@
 import { getClassNames } from '../../services/classNames'
 import Item from './Item'
 import styles from './styles.module.css'
-import { ChartItem } from './types'
+import { BarChartItem } from './types'
 
 type Props = {
-	items: ChartItem[]
+	items: BarChartItem[]
 	/** Additional className for the chart container. */
 	className?: string
 }

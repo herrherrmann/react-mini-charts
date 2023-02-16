@@ -1,7 +1,7 @@
 import { ReactNode } from 'react'
 import { Color } from '../../common/types'
 
-export type ChartItem = {
+export type BarChartItem = {
 	barWidth: string | number
 	barColor: Color
 	labelLeft?: ReactNode
