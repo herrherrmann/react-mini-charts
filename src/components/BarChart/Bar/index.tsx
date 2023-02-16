@@ -1,15 +1,14 @@
-import { chartBarBorderRadius, chartBarSize } from '../../../common/constants'
 import { BarProps } from '../types'
+import styles from './styles.module.css'
 
 export default function Bar(props: BarProps) {
 	return (
 		<div
 			aria-roledescription="bar"
+			className={styles.bar}
 			style={{
-				backgroundColor: props.barColor,
 				width: props.barWidth,
-				height: chartBarSize,
-				borderRadius: chartBarBorderRadius,
+				backgroundColor: props.barColor,
 			}}
 		/>
 	)

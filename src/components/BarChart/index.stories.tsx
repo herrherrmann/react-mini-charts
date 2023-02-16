@@ -1,6 +1,7 @@
 import { Meta, Story } from '@storybook/react/types-6-0'
 import React from 'react'
 import BarChart from '.'
+import styles from './styles-stories.module.css'
 
 type Props = React.ComponentPropsWithoutRef<typeof BarChart>
 
@@ -37,8 +38,8 @@ Default.args = {
 	items: exampleChartItems,
 }
 
-export const CustomGap = Template.bind({})
-CustomGap.args = {
+export const CustomStyles = Template.bind({})
+CustomStyles.args = {
 	items: exampleChartItems,
-	gap: 30,
+	className: styles.customStyles,
 }

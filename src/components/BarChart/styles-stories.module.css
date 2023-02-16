@@ -1,0 +1,7 @@
+.customStyles {
+    max-width: 280px;
+	gap: 30px;
+    background-color: lemonchiffon;
+    padding: 30px;
+    border-radius: 8px;
+}
