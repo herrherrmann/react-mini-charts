@@ -35,15 +35,15 @@ import BarChart from 'react-mini-charts'
 />
 ```
 
+### Customization
+
+Chart styles can be overridden with `className` props.
+
+
 ## Development
 
-Install dependencies with `npm install`.
-
-You can start editing and preview your changes with Storybook:
-
-```shell
-npm run storybook
-```
+1. Install dependencies with `npm install`
+2. Start editing and preview your changes in Storybook with `npm run storybook`
 
 ### Building & publishing
 
@@ -59,6 +59,10 @@ npm run storybook
 # Format all files according to Prettier config:
 npm run format
 
-# Run all tests (none added yet):
+# Run all tests:
 npm test
 ```
+
+## Contributions & feedback
+
+This is a spare-time project by one person, but feel free to leave comments and suggestions in the issues tab!
