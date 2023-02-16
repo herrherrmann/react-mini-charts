@@ -1,3 +1,11 @@
+# 0.0.4
+
+- **⚠️ Breaking change:** BarChart: `chartItems` prop is now called `items`
+- BarChart: You can now override basic chart styles with the `className` prop
+- BarChart: Accessibility improvements (`role` and `aria-roledescription` tags)
+- BarChart: Some CSS simplifications and code cleanup
+
+
 # 0.0.3
 
 - Build improvements, including proper TypeScript type setup
