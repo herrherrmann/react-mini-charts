@@ -11,6 +11,6 @@ export type ChartItem = {
 }
 
 export type BarProps = {
-	barColor: Color
 	barWidth: string | number
+	barColor: Color
 }

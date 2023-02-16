@@ -6,7 +6,7 @@ import styles from './styles-stories.module.css'
 type Props = React.ComponentPropsWithoutRef<typeof BarChart>
 
 export default {
-	title: 'BarChart',
+	title: BarChart.name,
 	component: BarChart,
 } as Meta<Props>
 
