@@ -17,7 +17,7 @@ type Props = {
 
 export default function BarChart({ chartItems }: Props) {
 	return (
-		<>
+		<div className={styles.chart}>
 			{chartItems.map((chartItem, index) => (
 				<Item
 					key={index}
@@ -29,6 +29,6 @@ export default function BarChart({ chartItems }: Props) {
 					labelRightColor={chartItem.labelRightColor || 'gray800'}
 				/>
 			))}
-		</>
+		</div>
 	)
 }
