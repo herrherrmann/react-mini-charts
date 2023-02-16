@@ -15,7 +15,7 @@ type Props = BarProps & {
 export default function Item(props: Props) {
 	const { barColor, barWidth, labelLeft, labelRight, labelLeftColor, labelRightColor } = props
 	return (
-		<div className={styles.itemContainer}>
+		<div className={styles.item}>
 			<Bar barColor={barColor} barWidth={barWidth} />
 			{(labelLeft || labelRight) && (
 				<div className={styles.labels}>
