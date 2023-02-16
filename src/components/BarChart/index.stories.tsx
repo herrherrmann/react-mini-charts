@@ -43,3 +43,12 @@ CustomStyles.args = {
 	items: exampleChartItems,
 	className: styles.customStyles,
 }
+
+export const NoLabels = Template.bind({})
+NoLabels.args = {
+	items: [
+		{ barWidth: '10%', barColor: '#adfc92' },
+		{ barWidth: '50%', barColor: '#4a0d67' },
+		{ barWidth: '40%', barColor: '#db3069' },
+	],
+}
