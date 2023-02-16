@@ -1,6 +1,8 @@
+import { useMemo } from 'react'
 import { Color } from '../../common/types'
 import { getClassNames } from '../../services/classNames'
 import Item from './Item'
+import { getOffsetPercentages } from './service'
 import styles from './styles.module.css'
 import { PieChartItem } from './types'
 
@@ -16,6 +18,7 @@ type Props = {
 
 export default function PieChart({ items, size = 200, className, backgroundColor = '#efefef' }: Props) {
 	const radius = size / 2
+	const offsetPercentages = useMemo(() => getOffsetPercentages(items), [items])
 	return (
 		<svg
 			width={size}
@@ -28,19 +31,15 @@ export default function PieChart({ items, size = 200, className, backgroundColor
 			{!!backgroundColor && (
 				<Item radius={radius} offsetPercentage={0.0} percentage={1.0} color={backgroundColor} />
 			)}
-			{items.map((chartItem, index) => {
-				const previousItems = items.slice(0, index)
-				const offsetPercentage = previousItems.reduce((prev, current) => prev + current.percentage, 0)
-				return (
-					<Item
-						key={index}
-						radius={radius}
-						offsetPercentage={offsetPercentage}
-						percentage={chartItem.percentage}
-						color={chartItem.color}
-					/>
-				)
-			})}
+			{items.map((chartItem, index) => (
+				<Item
+					key={index}
+					radius={radius}
+					offsetPercentage={offsetPercentages[index]}
+					percentage={chartItem.percentage}
+					color={chartItem.color}
+				/>
+			))}
 		</svg>
 	)
 }
