@@ -9,7 +9,7 @@ A collection of tiny chart components for React projects. Written with TypeScrip
 ![A bar chart with three items](./screenshots/BarChart.jpg)
 
 ```tsx
-import BarChart from 'react-mini-charts'
+import { BarChart } from 'react-mini-charts'
 
 <BarChart
 	items={[
@@ -40,7 +40,7 @@ import BarChart from 'react-mini-charts'
 ![A pie chart with three items](./screenshots/PieChart.jpg)
 
 ```tsx
-import PieChart from 'react-mini-charts'
+import { PieChart } from 'react-mini-charts'
 
 <PieChart
 	size={240}
