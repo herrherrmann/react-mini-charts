@@ -1,5 +1,5 @@
 .bar {
 	height: 8px;
 	border-radius: 3px;
-	transition: width 500ms ease-out;
+	transition: width 500ms ease-in-out;
 }
