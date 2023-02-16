@@ -1,7 +1,7 @@
 {
   "name": "react-mini-charts",
   "description": "A collection of tiny chart components for React projects.",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.es.js",

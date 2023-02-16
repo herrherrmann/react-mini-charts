@@ -1,3 +1,8 @@
+# 0.0.6
+
+- PieChart is now being exported from the main index file
+
+
 # 0.0.5
 
 - New chart type: PieChart!
