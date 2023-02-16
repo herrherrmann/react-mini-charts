@@ -1,3 +1,9 @@
+# 0.0.5
+
+- New chart type: PieChart!
+- Misc. minor improvements for BarChart (CSS and type naming)
+
+
 # 0.0.4
 
 - **⚠️ Breaking change:** BarChart: `chartItems` prop is now called `items`
@@ -11,9 +17,11 @@
 - Build improvements, including proper TypeScript type setup
 - Documentation improvements
 
+
 # 0.0.2
 
 - Build improvements (migration to Rollup as build tool)
+
 
 # 0.0.1
 
