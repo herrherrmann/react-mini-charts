@@ -17,7 +17,7 @@ type Props = {
 
 export default function BarChart({ chartItems }: Props) {
 	return (
-		<div className={styles.chart}>
+		<div className={styles.chart} role="graphics-document" aria-roledescription="chart">
 			{chartItems.map((chartItem, index) => (
 				<Item
 					key={index}

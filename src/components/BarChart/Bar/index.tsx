@@ -9,6 +9,7 @@ export type BarProps = {
 export default function Bar(props: BarProps) {
 	return (
 		<div
+			aria-roledescription="bar"
 			style={{
 				backgroundColor: props.barColor,
 				width: props.barWidth,
