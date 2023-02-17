@@ -9,10 +9,12 @@
     "dist"
   ],
   "homepage": "https://github.com/herrherrmann/react-mini-charts#readme",
-  "bugs": "https://github.com/herrherrmann/react-mini-charts/issues",
+  "bugs": {
+    "url": "https://github.com/herrherrmann/react-mini-charts/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/herrherrmann/react-mini-charts.git"
+    "url": "git+https://github.com/herrherrmann/react-mini-charts.git"
   },
   "keywords": [
     "react",
@@ -44,6 +46,7 @@
     "@storybook/react": "^6.5.16",
     "@storybook/testing-library": "^0.0.13",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "chromatic": "^6.17.0",
     "rollup": "^3.15.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
