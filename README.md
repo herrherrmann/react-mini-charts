@@ -87,7 +87,7 @@ npm test
 
 ## Contributions & feedback
 
-This is a spare-time project by one person, but feel free to leave comments and suggestions in the issues tab!
+This is a spare-time project by one person, but feel free to leave comments and suggestions as [issues on GitHub](https://github.com/herrherrmann/react-mini-charts/issues)!
 
 ## Improvement ideas
 
