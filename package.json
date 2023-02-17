@@ -51,6 +51,7 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-typescript2": "^0.34.1",
+    "storybook-addon-jsx": "^7.3.14",
     "webpack": "^5.75.0"
   },
   "peerDependencies": {

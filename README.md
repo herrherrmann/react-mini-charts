@@ -2,7 +2,7 @@
 
 A collection of tiny chart components for React projects. Written with TypeScript and CSS modules.
 
-You can see an interactive preview of all components in the [public Storybook instance](https://main--63ef4f8b97935401942de85b.chromatic.com/).
+You can see an interactive preview of all components in the [public Storybook instance](https://main--63ef4f8b97935401942de85b.chromatic.com/). Use the "Controls" and "JSX" tabs in Storybook to customize the charts and get the code to paste into your project.
 
 ## Usage
 
