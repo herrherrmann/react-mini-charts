@@ -35,7 +35,7 @@ import { BarChart } from 'react-mini-charts'
 />
 ```
 
-### PieChart
+### PieChart (SVG)
 
 ![A pie chart with three items](./screenshots/PieChart.jpg)
 
@@ -55,7 +55,7 @@ import { PieChart } from 'react-mini-charts'
 
 ### Customization
 
-- General styles like font-family are inherited from the surrounding CSS context.
+- General styles like `font-family` are inherited from the surrounding CSS context.
 - Specific chart styles can be overridden with `className` props.
 - By default, charts have transition styles that allow for smooth transitions between values. The timing and behavior can be overridden with custom CSS classes.
 
