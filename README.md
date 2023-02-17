@@ -2,6 +2,8 @@
 
 A collection of tiny chart components for React projects. Written with TypeScript and CSS modules.
 
+You can see an interactive preview of all components in the [public Storybook instance](https://main--63ef4f8b97935401942de85b.chromatic.com/).
+
 ## Usage
 
 ### BarChart
@@ -90,4 +92,5 @@ This is a spare-time project by one person, but feel free to leave comments and 
 ## Improvement ideas
 
 - [ ] Document requirements (e.g. minimum React version)
+- [ ] Document difference between HTML-based and SVG-based charts
 - [ ] Calculate the percentages based on absolute values (instead of percentages to be pre-calculated on the outside)
