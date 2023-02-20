@@ -4,5 +4,13 @@
 	"tabWidth": 4,
 	"printWidth": 120,
 	"useTabs": true,
-	"trailingComma": "all"
+	"trailingComma": "all",
+	"overrides": [
+		{
+			"files": "*.yml",
+			"options": {
+				"useTabs": false
+			}
+		}
+	]
 }
