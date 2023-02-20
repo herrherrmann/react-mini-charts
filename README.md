@@ -4,6 +4,22 @@ A collection of tiny chart components for React projects. Written with TypeScrip
 
 You can see an interactive preview of all components in the [public Storybook instance](https://main--63ef4f8b97935401942de85b.chromatic.com/). Use the "Controls" and "JSX" tabs in Storybook to customize the charts and get the code to paste into your project.
 
+
+## Installation
+
+npm:
+
+```bash
+npm install --save react-mini-charts
+```
+
+yarn:
+
+```bash
+yarn add react-mini-charts
+```
+
+
 ## Usage
 
 ### BarChart
@@ -64,6 +80,14 @@ import { PieChart } from 'react-mini-charts'
 
 ## Development
 
+### Requirements
+
+- Node 18.x with npm 9.x (other versions might work as well)
+- Editor (e.g. [VS Code](https://code.visualstudio.com/)) with TypeScript, ESLint and Prettier integration
+
+
+### Setup
+
 1. Install dependencies with `npm install`
 2. Start editing and preview your changes in Storybook with `npm run storybook`
 
@@ -77,7 +101,7 @@ import { PieChart } from 'react-mini-charts'
 
 ### Other commands
 
-```shell
+```bash
 # Format all files according to Prettier config:
 npm run format
 
@@ -85,9 +109,11 @@ npm run format
 npm test
 ```
 
+
 ## Contributions & feedback
 
-This is a spare-time project by one person, but feel free to leave comments and suggestions as [issues on GitHub](https://github.com/herrherrmann/react-mini-charts/issues)!
+This is a spare-time project by one person, but feedback is very welcome! Feel free to leave comments and suggestions as [issues on GitHub](https://github.com/herrherrmann/react-mini-charts/issues)!
+
 
 ## Improvement ideas
 
