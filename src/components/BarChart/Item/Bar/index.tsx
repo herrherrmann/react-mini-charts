@@ -1,4 +1,4 @@
-import { BarProps } from '../types'
+import { BarProps } from '../../types'
 import styles from './styles.module.css'
 
 export default function Bar(props: BarProps) {

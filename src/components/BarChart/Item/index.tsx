@@ -1,7 +1,7 @@
 import { ReactNode } from 'react'
 import { Color } from '../../../common/types'
-import Bar from '../Bar'
 import { BarProps } from '../types'
+import Bar from './Bar'
 import Label from './Label'
 import styles from './styles.module.css'
 
