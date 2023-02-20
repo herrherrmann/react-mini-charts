@@ -1,3 +1,8 @@
+# 0.0.7
+
+- Changes related to the dev/build setup and documentation
+
+
 # 0.0.6
 
 - PieChart is now being exported from the main index file
