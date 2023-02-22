@@ -117,6 +117,9 @@ This is a spare-time project by one person, but feedback is very welcome! Feel f
 
 ## Improvement ideas
 
+- [ ] Make charts more responsive
+- [ ] Add legend component
+- [ ] Add more chart types (e.g. line chart, horizontal bar chart)
 - [ ] Document requirements (e.g. minimum React version)
 - [ ] Document difference between HTML-based and SVG-based charts
 - [ ] Calculate the percentages based on absolute values (instead of percentages to be pre-calculated on the outside)
