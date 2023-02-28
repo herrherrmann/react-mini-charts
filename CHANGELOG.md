@@ -1,3 +1,9 @@
+# 0.0.8
+
+- BarChart: Removed outdated color fallback values for labels
+- **⚠️ Breaking change:** BarChart: Restructured label props to have clearer names and nesting (see examples in readme and stories for the new format)
+
+
 # 0.0.7
 
 - Changes related to the dev/build setup and documentation
