@@ -17,10 +17,7 @@ export default function BarChart({ items, className }: Props) {
 					key={index}
 					barWidth={chartItem.barWidth}
 					barColor={chartItem.barColor}
-					labelLeft={chartItem.labelLeft}
-					labelRight={chartItem.labelRight}
-					labelLeftColor={chartItem.labelLeftColor}
-					labelRightColor={chartItem.labelRightColor}
+					labels={chartItem.labels}
 				/>
 			))}
 		</div>

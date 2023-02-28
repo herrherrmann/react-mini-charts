@@ -34,20 +34,26 @@ import { BarChart } from 'react-mini-charts'
 		{
 			barWidth: '10%',
 			barColor: '#adfc92',
-			labelLeft: 'Something good',
-			labelRight: '10%',
+			labels: {
+				left: { text: 'Something good' },
+				right: { text: '10%' },
+			},
 		},
 		{
 			barWidth: '50%',
 			barColor: '#4a0d67',
-			labelLeft: 'Something mediocre',
-			labelRight: '50%',
+			labels: {
+				left: { text: 'Something mediocre' },
+				right: { text: '50%' },
+			},
 		},
 		{
 			barWidth: '40%',
 			barColor: '#db3069',
-			labelLeft: 'Something bad',
-			labelRight: '40%',
+			labels: {
+				left: { text: 'Something bad' },
+				right: { text: '40%' },
+			},
 		},
 	]}
 />
