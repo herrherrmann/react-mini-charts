@@ -19,8 +19,8 @@ export default function BarChart({ items, className }: Props) {
 					barColor={chartItem.barColor}
 					labelLeft={chartItem.labelLeft}
 					labelRight={chartItem.labelRight}
-					labelLeftColor={chartItem.labelLeftColor || 'black'}
-					labelRightColor={chartItem.labelRightColor || 'gray800'}
+					labelLeftColor={chartItem.labelLeftColor}
+					labelRightColor={chartItem.labelRightColor}
 				/>
 			))}
 		</div>
