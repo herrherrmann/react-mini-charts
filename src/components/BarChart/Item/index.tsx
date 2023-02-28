@@ -1,26 +1,19 @@
-import { ReactNode } from 'react'
-import { Color } from '../../../common/types'
-import { BarProps } from '../types'
+import { BarChartItem } from '../types'
 import Bar from './Bar'
 import Label from './Label'
 import styles from './styles.module.css'
 
-type Props = BarProps & {
-	labelLeft?: ReactNode
-	labelRight?: ReactNode
-	labelLeftColor?: Color
-	labelRightColor?: Color
-}
+type Props = BarChartItem
 
 export default function Item(props: Props) {
-	const { barColor, barWidth, labelLeft, labelRight, labelLeftColor, labelRightColor } = props
+	const { barColor, barWidth, labels } = props
 	return (
 		<div className={styles.item}>
 			<Bar barColor={barColor} barWidth={barWidth} />
-			{(labelLeft || labelRight) && (
+			{labels && (
 				<div className={styles.labels}>
-					{labelLeft && <Label color={labelLeftColor}>{labelLeft}</Label>}
-					{labelRight && <Label color={labelRightColor}>{labelRight}</Label>}
+					{labels?.left && <Label color={labels.left.color}>{labels.left.text}</Label>}
+					{labels?.right && <Label color={labels.right.color}>{labels.right.text}</Label>}
 				</div>
 			)}
 		</div>

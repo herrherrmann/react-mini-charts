@@ -2,6 +2,7 @@ import { Meta, Story } from '@storybook/react/types-6-0'
 import React from 'react'
 import BarChart from '.'
 import styles from './styles-stories.module.css'
+import { BarChartItem } from './types'
 
 type Props = React.ComponentPropsWithoutRef<typeof BarChart>
 
@@ -12,24 +13,30 @@ export default {
 
 const Template: Story<Props> = (args) => <BarChart {...args} />
 
-const exampleChartItems = [
+const exampleChartItems: BarChartItem[] = [
 	{
 		barWidth: '10%',
 		barColor: '#adfc92',
-		labelLeft: 'Something good',
-		labelRight: '10%',
+		labels: {
+			left: { text: 'Something good' },
+			right: { text: '10%' },
+		},
 	},
 	{
 		barWidth: '50%',
 		barColor: '#4a0d67',
-		labelLeft: 'Something mediocre',
-		labelRight: '50%',
+		labels: {
+			left: { text: 'Something mediocre' },
+			right: { text: '50%' },
+		},
 	},
 	{
 		barWidth: '40%',
 		barColor: '#db3069',
-		labelLeft: 'Something bad',
-		labelRight: '40%',
+		labels: {
+			left: { text: 'Something bad' },
+			right: { text: '40%' },
+		},
 	},
 ]
 
